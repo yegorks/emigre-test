@@ -14,8 +14,8 @@ if choise == "y":
     print("Let's determine which country is right for you!")
 elif choise == "n":
     print("Respect! But anyway...")
-else:
-    print("Incorrect answer (you should input only y or n)")
+while choise != "y" and choise != "n":
+    choise = input("Incorrect answer (you should input only y or n)")
 
 print(emigre + ", do you hardworker?")
 choise = input()
